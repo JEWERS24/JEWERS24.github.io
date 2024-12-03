@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saucer Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <br>
+    <br>
+    <h1>Menu</h1>
+    <br>
+    <br>
+    <div class="container">
+        <div class="saucer-card" onclick="toggleZoom(event)">
+            <div class="image-container">
+                <img src="saucerH.png" alt="Front View" class="image front responsive-image">
+                <img src="saucerU.png" alt="Top View" class="image back responsive-image">
+            </div>
+            <div class="card-body text-center">
+                <h2 class="card-title">Espaguettis en salsa con albahaca</h2>
+                <p class="ingredients" style="display: none;">Ingredientes: Espaguettis, salsa de tomate, albahaca, ajo, aceite de oliva.</p>
+            </div>
+        </div> 
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="saucer-card second-card" onclick="toggleZoom(event)">
+            <div class="image-container">
+                <img src="saucerH.png" alt="Front View" class="image front responsive-image">
+                <img src="saucerU.png" alt="Top View" class="image back responsive-image">
+            </div>
+            <div class="card-body text-center">
+                <h2 class="card-title">Espaguettis en salsa con albahaca</h2>
+                <p class="ingredients" style="display: none;">Ingredientes: Espaguettis, salsa de tomate, albahaca, ajo, aceite de oliva.</p>
+            </div>
+        </div> 
+    </div>
+    <br>
+    <br>
+    <br>  
+    <script src="script.js"></script>
+</body>
+</html>
