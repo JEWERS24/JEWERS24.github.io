@@ -32,7 +32,7 @@ body {
 
 .second-card {
     flex-direction: row-reverse; /* Cambia la dirección del flex para que la imagen esté a la derecha */
-    text-align: right;
+    text-align: center;
 }
 
 .image-container {
